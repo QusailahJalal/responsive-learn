@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:responsive_learn/ui/home/setctions/home_veiw_body_section.dart';
-import 'package:responsive_learn/ui/home/setctions/main_categories_section.dart';
 import 'package:responsive_learn/ui/home/widgets/app_drawer.dart';
 
 class HomeView extends StatefulWidget {

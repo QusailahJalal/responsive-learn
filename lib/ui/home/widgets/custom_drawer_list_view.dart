@@ -4,8 +4,8 @@ import 'package:responsive_learn/ui/home/widgets/app_drawer.dart';
 import 'package:responsive_learn/ui/home/widgets/custom_drawer_list_view_item.dart';
 
 class CustomDrawerListView extends StatelessWidget {
-  CustomDrawerListView({super.key});
-  final List<DrawerItemModel> items = [
+  const CustomDrawerListView({super.key});
+  final List<DrawerItemModel> items = const [
     DrawerItemModel(title: 'dashboard', icon: Icons.home),
     DrawerItemModel(title: 'settings', icon: Icons.settings),
     DrawerItemModel(title: 'about', icon: Icons.help),

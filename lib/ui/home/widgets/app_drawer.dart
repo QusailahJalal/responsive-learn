@@ -10,15 +10,11 @@ class AppDrawer extends StatelessWidget {
     return SafeArea(
       child: Drawer(
         backgroundColor: Colors.grey[300],
-        child: Container(
-          child: Column(
-            children: [
-              DrawerHeader(
-                child: Container(child: Icon(size: 48, Icons.favorite)),
-              ),
-              Expanded(child: CustomDrawerListView()),
-            ],
-          ),
+        child: Column(
+          children: [
+            DrawerHeader(child: Icon(size: 48, Icons.favorite)),
+            Expanded(child: CustomDrawerListView()),
+          ],
         ),
       ),
     );

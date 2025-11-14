@@ -4,6 +4,6 @@ class DrawerItemModel {
   final String title;
   final IconData icon;
 
-  DrawerItemModel({required this.title, required this.icon});
+  const DrawerItemModel({required this.title, required this.icon});
 
 }
